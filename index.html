@@ -2,28 +2,91 @@
 <html lang="vi">
     <head>
 
-        <title>HTML & CSS Leaning</title>
+        <title>The Band</title>
         <meta charset="utf-8" />
-        <style type=""text/css">
-            body{
-                background-color: #ffffff;
-                margin-left: 10%;
-                margin-right: 10%;
-                border: 2px dotted black;
-                padding: 10px 10px 10px 10px;
-                font-family: sans-serif;
+        <style>
+            /*Style the menu text*/
+            .menu-text {
+                color: #ffffff;
+                text-decoration: none;
+                font-size: 25px;
+            }
+            /*Change background color when text hover on menu*/
+            .menu-text:hover {
+                background-color: #cccccc;
+                color: black;
+            }
+
+            button {
+                display: inline;
+                color:white;
+                font-size: 25px;
+                border: none;
+                cursor: pointer;
+            }
+            /* Style the Menu*/
+            .menu {
+                background-color: black;
+              
+            }
+            /* Style the Dropdown Button */
+            .dropbtn {
+                color: rgb(0, 0, 0);
+                font-size: 25px;
+                border: none;
+                cursor: pointer;
+            }
+
+            /* The contaniner <li> - needed to position the dropdown content */
+            .dropdown {
+                position: relative;
+                display: inline-block;
+            }
+            /* Dropdown Content (Hidden by default)*/
+            .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: #f9f9f9;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                z-index: 1;
+            }
+            /* Links inside the dropdown */
+            .dropdown-content a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+            }
+            /* Change color of dropdown links on hover */
+            .dropdown-content a:hover {background-color: #f1f1f1;}
+            /* Show the dropdown menu on hover */
+            .dropdown:hover .dropdown-content {
+                display: block;
+            }
+            /* Change the background color of the dropdown button when the dropdown content is shown */
+            .dropdown:hover .dropbtn{
+                background-color: #cccccc;
+                color: black;
             }
         </style>
-
     </head>
 
     <body>
-    
-        <h1>DEV COFFEE</h1>
-        <p>Xem menu <strong>nước uống</strong>  <a href="drink/drink.html">tại đây </a> <br>
-           Xem danh sách các <em>chi nhánh</em> <a href="/about/about.html">tại đây</a> <br>
-           Xem món <strong>HOT nhất hiện nay</strong> <a href="/drink/drink.html#hot">tại đây</a>
-        </p>
+<div class="menu">
+            <button><a class="menu-text" href="index.html">HOME</a></button>
+            <button><a class="menu-text" href="index.html#band">BAND</a></button>
+            <button><a class="menu-text" href="index.html#tour">TOUR</a></button>
+            <button><a class="menu-text" href="index.html#contact">CONTACT</a></button>
+            <button class="dropdown">
+                <p class="dropbtn">MORE</p>
+                <div class="dropdown-content">
+                    <a href="#">Merchandise</a>
+                    <a href="#">Extras</a>
+                    <a href="#">Media</a>
+                </div>
+            </button>
+</div>       
     </body>
 
 </html>
