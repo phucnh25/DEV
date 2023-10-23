@@ -17,7 +17,7 @@ body {
 }
 
 /* Reset / Normalize / Sanitize */
-body, h1, h2, h3, h4, h5, h6, p, ul, fugure{
+body, h1, h2, h3, h4, h5, h6, p, ul, fugure {
 	margin: 0;
 	padding: 0;
 }
@@ -113,7 +113,7 @@ a:hover {
 /* Hero */
 .hero {
 		height: 400px;
-		background-image: url(/img/hero.jpg);
+		background-image: url(img/hero.jpg);
 		background-position: center;
 		background-size: cover;
 		display: flex;
