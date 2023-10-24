@@ -158,3 +158,69 @@ a:hover {
 		margin-bottom: 22px;
 	}
 }
+
+/* message */
+.message {
+	padding: 67px 0;
+	background-color: #2E5180;
+	color: #ffffff;
+}
+
+.message h2 {
+	margin-bottom: 38px;
+	font-size: 26px;
+	line-height: 1.62;
+	text-align: center;
+}
+
+.message p {
+		max-width: 640px;
+		margin: auto;
+		font-size: 15px;
+		line-height: 1.73;
+}
+
+@media (min-width: 900px) {
+	.message {
+		padding: 81px 0;
+	}
+
+	.message h2 {
+		font-size: 36px;
+		line-height: 1.33;
+	}
+}
+
+@media (max-width: 37px) {
+	.message h2 {
+		font-size: 20px;
+	}
+}
+
+/* Services */
+.services {
+	padding: 67px 0;
+	text-align: center;
+}
+
+.services h2 {
+	display: inline-block;
+	margin-bottom: 16px;
+	padding-bottom: 9px;
+	border-bottom: dotted 2px currentColor;
+}
+
+.services h2 + p {
+	color: #2E5180;
+	font-size: 16px;
+}
+
+@media (min-width: 900px) {
+	.service {
+		padding: 95px 0 87px;
+	}
+
+	.service h2 {
+		font-size: 36px;
+	}
+}
