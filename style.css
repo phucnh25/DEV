@@ -267,7 +267,7 @@ a:hover {
 	}
 
 	.feature:first-child {
-		margin-left: 3.22%
+		margin-left: 3.22%;
 	}
 
 	.feature:not(:last-child) {
