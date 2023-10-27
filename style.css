@@ -5,6 +5,18 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 
+.container {
+	width: 84%;
+	margin: 0 auto;
+}
+
+@media (min-width: 900px) {
+	.container {
+	width: 91%;
+	max-width: 1240px;
+	}	
+}
+
 /* Reset / Normalize / Sanitize */
 body, h1, h2, h3, h4, h5, h6, p, ul, figure {
 	margin: 0;
@@ -30,6 +42,18 @@ a:hover {
 	width: 1px;
 }
 /* Header */
+.header .container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 74px;
+}
+
+@media (min-width: 900px) {
+	.header .container {
+		height: 100px;
+	}
+}
 
 .site {
 	display: flex;
