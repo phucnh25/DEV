@@ -78,6 +78,21 @@ a:hover {
 	line-height: 1.2;
 }
 
+@media(min-width: 900px) {
+	.site img {
+		width: 59px;
+		margin-right: 18px;
+	}
+
+	.site .name {
+		font-size: 22px;
+	}
+
+	.site .desc {
+		font-size: 12px;
+	}
+}
+
 /* Navigation Button */
 
 .nav-button {
@@ -104,4 +119,56 @@ a:hover {
 .nav-button::before {
 	transform: translateY(-5px);
 	box-shadow: 0 6px currentColor;
+}
+
+/* Hero Section */
+.hero {
+	background-image: url("https://w.ladicdn.com/s1440x803/5e8449c2481e7d0f79868b5d/background_rtss1-20230411082013-yqiis.jpg");
+	height: 400px;
+	background-position: center;
+	background-size: cover;
+	display: flex;
+}
+
+.hero img {
+	height: 50px;
+	vertical-align: bottom;
+}
+
+.hero .headline {
+	background-color: rgba(255, 255, 255, 0.76);
+	padding: 33px 0;
+	align-self: flex-end;
+	flex: auto;
+}
+
+.hero .container {
+	display: flex;
+	align-items: center;
+	flex-direction: column-reverse;
+}
+
+.hero p {
+	font-size: 15px;
+	color: #2E5180;
+	margin-bottom: 15px;
+}
+
+@media (min-width: 900px) {
+	.hero {
+		height: 700px;
+	}
+
+	.hero .headline {
+		padding: 47px 0 44px;
+	}
+
+	.hero p {
+		font-size: 18px;
+		margin-bottom: 22px;
+	}
+	.hero img {
+		height: 80px;
+	}
+	
 }
