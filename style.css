@@ -375,6 +375,31 @@ a:hover {
 }
 
 @media (min-width: 900px) {
+	
+	.contact {
+		background: none;
+		padding: 0;
+	}
+
+	.contact .container {
+		background-color: #178E91;
+		padding: 96px 9% 62px;
+		box-sizing: border-box;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.contact .text {
+		flex: 0 0 auto;
+	}
+
+	.contact .form {
+		flex: 1 1 auto;
+		/*max-width: 457px;*/
+		margin-left: 1em;
+		margin-top: 0;
+	}
+}
 	.contact h2 {
 		font-size: 36px;
 	}
