@@ -361,7 +361,7 @@ a:hover {
 .contact {
 	padding: 62px 0;
 	background-color: #178E91;
-	color: #FFFFFF;
+	color: #178E91;
 }
 
 .contact h2 {
@@ -382,7 +382,7 @@ a:hover {
 	}
 
 	.contact .container {
-		background-color: #178E91;
+		background-color: #EEF4F8;
 		padding: 96px 9% 62px;
 		box-sizing: border-box;
 		display: flex;
@@ -451,5 +451,76 @@ a:hover {
 @media (min-width: 900px) {
 	.form .btn {
 		width: 272px;
+	}
+}
+
+/* Footer */
+.footer {
+	background-color:#178E91;
+	padding: 38px 0 56px;
+}
+
+.footer .site img {
+	width: 100px;
+	margin-right: 14px;
+}
+
+.footer .site .name {
+	color: #FFFFFF;
+	font-size: 18px;
+}
+
+.footer .add {
+	margin :20px 0 36px 61px;
+	color: #FFFFFF;
+	font-size: 12px;
+	line-height: 2;
+}
+
+.footer .sns {
+	display: flex;
+	margin-left: 61px;
+	list-style: none;
+}
+
+.footer .sns li:not(:first-child) {
+	margin-left: 25px;
+}
+
+.footer .sns img {
+	width: 35px;
+}
+
+@media (min-width: 900px) {
+	.contact {
+		position: relative;
+		z-index: 2;
+	}
+
+	.footer {
+		margin-top: -48px;
+		padding: 105px 0 88px;
+	}
+	.footer .container {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.footer .site img {
+		width: 59px;
+		margin-right: 18px;
+	}
+
+	.footer .site .name {
+		font-size: 22px;
+	}
+
+	.footer .add {
+		margin: 22px 0 0 77px;
+	}
+
+	,footer .sns {
+		height: 59px;
+		align-items: center;
 	}
 }
