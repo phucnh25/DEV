@@ -584,68 +584,28 @@ video {
   position: sticky;
 }
 
-.right-0 {
-  right: 0px;
-}
-
-.top-4 {
-  top: 1rem;
-}
-
 .bottom-0 {
   bottom: 0px;
-}
-
-.top-7 {
-  top: 1.75rem;
-}
-
-.top-10 {
-  top: 2.5rem;
-}
-
-.left-10 {
-  left: 2.5rem;
-}
-
-.top-5 {
-  top: 1.25rem;
-}
-
-.top-0 {
-  top: 0px;
 }
 
 .left-20 {
   left: 5rem;
 }
 
-.top-96 {
-  top: 24rem;
+.left-64 {
+  left: 16rem;
+}
+
+.right-0 {
+  right: 0px;
+}
+
+.top-0 {
+  top: 0px;
 }
 
 .top-52 {
   top: 13rem;
-}
-
-.left-52 {
-  left: 13rem;
-}
-
-.-left-56 {
-  left: -14rem;
-}
-
-.left-56 {
-  left: 14rem;
-}
-
-.left-60 {
-  left: 15rem;
-}
-
-.left-64 {
-  left: 16rem;
 }
 
 .col-span-2 {
@@ -667,14 +627,9 @@ video {
   margin-right: 0.75rem;
 }
 
-.my-3 {
-  margin-top: 0.75rem;
-  margin-bottom: 0.75rem;
-}
-
-.my-5 {
-  margin-top: 1.25rem;
-  margin-bottom: 1.25rem;
+.mx-4 {
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .my-2 {
@@ -682,14 +637,19 @@ video {
   margin-bottom: 0.5rem;
 }
 
-.mx-4 {
-  margin-left: 1rem;
-  margin-right: 1rem;
+.my-3 {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
 }
 
 .my-4 {
   margin-top: 1rem;
   margin-bottom: 1rem;
+}
+
+.my-5 {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
 }
 
 .mt-10 {
@@ -708,64 +668,20 @@ video {
   display: grid;
 }
 
-.h-9 {
-  height: 2.25rem;
-}
-
-.h-8 {
-  height: 2rem;
-}
-
-.h-auto {
-  height: auto;
-}
-
 .h-10 {
   height: 2.5rem;
-}
-
-.h-40 {
-  height: 10rem;
-}
-
-.h-96 {
-  height: 24rem;
 }
 
 .h-80 {
   height: 20rem;
 }
 
-.h-7 {
-  height: 1.75rem;
+.h-96 {
+  height: 24rem;
 }
 
 .w-14 {
   width: 3.5rem;
-}
-
-.w-full {
-  width: 100%;
-}
-
-.w-6 {
-  width: 1.5rem;
-}
-
-.w-80 {
-  width: 20rem;
-}
-
-.w-10 {
-  width: 2.5rem;
-}
-
-.w-52 {
-  width: 13rem;
-}
-
-.w-7 {
-  width: 1.75rem;
 }
 
 .w-20 {
@@ -774,6 +690,18 @@ video {
 
 .w-24 {
   width: 6rem;
+}
+
+.w-52 {
+  width: 13rem;
+}
+
+.w-80 {
+  width: 20rem;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .flex-auto {
@@ -816,24 +744,24 @@ video {
   border-style: solid;
 }
 
-.border-blue-400 {
-  --tw-border-opacity: 1;
-  border-color: rgb(96 165 250 / var(--tw-border-opacity));
-}
-
 .border-black {
   --tw-border-opacity: 1;
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
 }
 
-.border-white {
+.border-blue-400 {
   --tw-border-opacity: 1;
-  border-color: rgb(255 255 255 / var(--tw-border-opacity));
+  border-color: rgb(96 165 250 / var(--tw-border-opacity));
 }
 
 .border-blue-500 {
   --tw-border-opacity: 1;
   border-color: rgb(59 130 246 / var(--tw-border-opacity));
+}
+
+.border-white {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
 .bg-\[\#178E91\] {
@@ -846,9 +774,14 @@ video {
   background-color: rgb(34 197 94 / var(--tw-bg-opacity));
 }
 
-.bg-green-600 {
+.bg-orange-500 {
   --tw-bg-opacity: 1;
-  background-color: rgb(22 163 74 / var(--tw-bg-opacity));
+  background-color: rgb(249 115 22 / var(--tw-bg-opacity));
+}
+
+.bg-red-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(248 113 113 / var(--tw-bg-opacity));
 }
 
 .bg-slate-400 {
@@ -859,52 +792,6 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-red-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(248 113 113 / var(--tw-bg-opacity));
-}
-
-.bg-black {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
-}
-
-.bg-orange-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(249 115 22 / var(--tw-bg-opacity));
-}
-
-.bg-\[url\(\'\/img\/rtss_icon\.png\'\)\] {
-  background-image: url('/img/rtss_icon.png');
-}
-
-.bg-\[url\(\'\/img\/Background_RTSS\.png\'\)\] {
-  background-image: url('/img/Background_RTSS.png');
-}
-
-.bg-cover {
-  background-size: cover;
-}
-
-.bg-no-repeat {
-  background-repeat: no-repeat;
-}
-
-.object-contain {
-  -o-object-fit: contain;
-     object-fit: contain;
-}
-
-.object-cover {
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
-.object-fill {
-  -o-object-fit: fill;
-     object-fit: fill;
 }
 
 .px-10 {
@@ -930,11 +817,6 @@ video {
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-}
-
-.py-4 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
 }
 
 .text-center {
