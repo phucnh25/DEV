@@ -194,9 +194,227 @@
     </section>
 
     <section>
-        <h1 class="my-5 font-bold">Challenge #16</h1>
-        <p>Create your color, font and shadow themes within the tailwind.config.js and use them on any layout you created before. Give them custom names.</p>
+        <h1 class="my-5 font-bold">Challenge #16-17</h1>
+        <p>#16 - Create your color, font and shadow themes within the tailwind.config.js and use them on any layout you created before. Give them custom names.</p>
+        <p>#17 - Create a kan ban layout, with cards and boxes and make it responsive.</p>
+        <div class="bg-slate-500 my-4 mx-4 py-4 rounded-md">
+            <h1 class="font-bold uppercase text-center">Kanban Board</h1>
+            <div class="flex py-4 flex-wrap justify-center">
+                <div class="border-2 bg-slate-200 mx-2 px-2 py-2 my-2 rounded-md w-96">
+                    <h1 class="text-center uppercase font-bold px-2">Rèn trí sáng suốt</h1>
+                    <p class="border-2 bg-red-400 rounded-md px-2 py-2">
+                        Là khóa rèn luyện chuyên sâu nhất về Trí Tuệ tại Viện Đào Tạo Bách Khoa</p>
+                    <p class="border-2 bg-yellow-400 rounded-md px-2 py-2">
+                        Trí tuệ giúp thấu rõ mọi vấn đề
+                        và có giải pháp đúng đắn!</p>
+                        
+                </div>
+                <div class="border-2 bg-slate-200 mx-2 px-2 py-2 my-2 rounded-md w-96">
+                    <h1 class="text-center uppercase font-bold px-2">Trái tim thông tuệ</h1>
+                    <p class="border-2 bg-cyan-400 rounded-md px-2 py-2">Trí tuệ giúp thấu rõ mọi vấn đề
+                        và có giải pháp đúng đắn!</p>
+                    <p class="border-2 bg-green-400 rounded-md px-2 py-2">Trí tuệ giúp thấu rõ mọi vấn đề
+                        và có giải pháp đúng đắn!</p>
+                </div>
+            </div>
+        </div>
     </section>
+
+    <section>
+        <h1 class="my-5 font-bold">Challenge #18</h1>
+        <p>Make a dropdown with links and icons. You can use Alpine.js too, why not.</p>
+        <div>
+            <button class="peer bg-green-400 font-bold px-2 py-2 relative ">VÒNG TRÒN SỐ 1</button>
+            <div class="bg-slate-200 hidden w-[200px] peer-hover:flex hover:flex flex-col drop-shadow-lg ">
+                <a href="bke.edu.vn/rentrisangsuot" class="px-2 py-2 hover:bg-white">Rèn trí sáng suốt</a>
+                <a href="bke.edu.vn/traitimthongtue" class="px-2 py-2 hover:bg-white">Trái tim thông tuệ</a>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h1 class="my-5 font-bold">Challenge #19</h1>
+        <p>Make a dropdown with two columns, links and icons. Make it responsive.</p>
+        <div>
+            <button class="peer bg-green-400 font-bold px-2 py-2 relative ">VÒNG TRÒN SỐ 1</button>
+            <div class="bg-slate-200 hidden w-[300px] peer-hover:flex hover:flex flex-row drop-shadow-lg justify-center">
+                <div class="flex flex-col my-4">
+                    <a href="bke.edu.vn/rentrisangsuot" class="px-2 py-2 hover:bg-white">Rèn trí sáng suốt</a>
+                    <a href="bke.edu.vn/traitimthongtue" class="px-2 py-2 hover:bg-white">Trái tim thông tuệ</a>
+                </div>
+                <div class="flex flex-col my-4">
+                    <a href="bke.edu.vn/rentrisangsuot" class="px-2 py-2 hover:bg-white">Rèn trí sáng suốt</a>
+                    <a href="bke.edu.vn/traitimthongtue" class="px-2 py-2 hover:bg-white">Trái tim thông tuệ</a>
+                </div>
+            </div>
+        </div>
+    
+    </section>
+
+    <section>
+        <h1 class="my-5 font-bold">Challenge #20</h1>
+        <p>Create a layout, any of your choice. Use your creations as content, make it responsive.</p>
+        <div class="flex">   
+            <div class="w-1/4 border-2 mx-2">Logo</div>
+            <div class="w-full border-2 mx-2">Menu</div>
+        </div> 
+        <div class="flex ">  
+            <div class="w-3/4 border-2 mx-2">
+                <h1>Rèn trí sáng suốt</h1>
+                <p>Nội dung</p>
+            </div>
+            <div class="w-1/4 border-2 mx-2">
+                <h1>Sidebar</h1>
+                <p>Links</p>
+            </div>
+        </div> 
+        <div>
+            <p class="border-2 mx-2">Footer</p>
+        </div>
+    </section>
+
+    <section>
+        <h1 class="my-5 font-bold">Challenge #21</h1>
+        <p>Create a horizontal scrollable layout only using Tailwind CSS, for example a card row and make it responsive.</p>
+        <div class="flex overflow-x-auto">  
+            <div class="bg-slate-200 mx-2 h-[200px] basis-96 flex-shrink-0">
+                <h1>Card 1</h1>
+                <p>Content 1</p>
+            </div>
+            <div class="bg-slate-200 mx-2 h-[200px] basis-96 flex-shrink-0">
+                <h1>Card 2</h1>
+                <p>Content 1</p>
+            </div>
+            <div class="bg-slate-200 mx-2 h-[200px] basis-96 flex-shrink-0">
+                <h1>Card 3</h1>
+                <p>Content 3</p>
+            </div>
+            <div class="bg-slate-200 mx-2 h-[200px] basis-96 flex-shrink-0">
+                <h1>Card 4</h1>
+                <p>Content 4</p>
+            </div>
+        </div> 
+    </section>
+
+    <section>
+        <h1 class="my-5 font-bold">Challenge #22</h1>
+        <p>Create a full width and height grid of two columns and 5 rows, make it responsive.</p>
+        <div class="grid grid-cols-1 lg:grid-cols-2 grid-rows-5 border-2 rounded-md">
+            <p class="">
+                Rèn trí sáng suốt
+            </p>
+            <p class="">
+                Trái tim thông tuệ 1
+            </p>
+            <p class="">
+                Trái tim thông tuệ 2
+            </p>
+            <p class="">
+                Trái tim thông tuệ 3
+            </p>
+            <p class="">
+                Trái tim thông tuệ 4
+            </p>
+            <p class="">
+                Trái tim thông tuệ 5
+            </p>
+            <p class="">
+                Trái tim thông tuệ 6
+            </p>
+            <p class="">
+                Trái tim thông tuệ 7
+            </p>
+            <p class="">
+                Trái tim thông tuệ 8
+            </p>
+            <p class="">
+                Trái tim thông tuệ 9
+            </p>
+
+        </div>
+    </section>
+
+    <section>
+        <h1 class="my-5 font-bold">Challenge #23</h1>
+        <p>Create a grid with cards for your team and make them responsive, include a picture, name and twitter.</p>
+        <div class="grid grid-cols-1 lg:grid-cols-2 grid-rows-2 border-2 rounded-md">
+            <div class=" flex bg-slate-200 mx-10 my-10 justify-center items-center w-[500px] rounded-lg">
+                <img src="/img/tvq.png" class="w-52" />
+                <div>
+                    <h1 class="font-bold text-2xl">Trần Việt Quân</h1>
+                    <p>Facebook: Trần Việt Quân</p>
+                </div>
+            </div>
+            <div class=" flex bg-slate-200 mx-10 my-10 justify-center items-center w-[500px] rounded-lg">
+                <img src="/img/tvq.png" class="w-52" />
+                <div>
+                    <h1 class="font-bold text-2xl">Trần Việt Quân</h1>
+                    <p>Facebook: Trần Việt Quân</p>
+                </div>
+            </div>
+            <div class=" flex bg-slate-200 mx-10 my-10 justify-center items-center w-[500px] rounded-lg">
+                <img src="/img/tvq.png" class="w-52" />
+                <div>
+                    <h1 class="font-bold text-2xl">Trần Việt Quân</h1>
+                    <p>Facebook: Trần Việt Quân</p>
+                </div>
+            </div>
+            <div class=" flex bg-slate-200 mx-10 my-10 justify-center items-center w-[500px] rounded-lg">
+                <img src="/img/tvq.png" class="w-52" />
+                <div>
+                    <h1 class="font-bold text-2xl">Trần Việt Quân</h1>
+                    <p>Facebook: Trần Việt Quân</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h1 class="my-5 font-bold">Challenge #24</h1>
+        <p>Create a grid layout with cards, give them different widths and heights.</p>
+        <div class="grid grid-cols-1 lg:grid-cols-2 grid-rows-2 border-2 rounded-md">
+            <div class=" flex bg-slate-200 mx-10 my-10 justify-center items-center w-[500px] h-[600px] rounded-lg">
+                <img src="/img/tvq.png" class="w-52" />
+                <div>
+                    <h1 class="font-bold text-2xl">Trần Việt Quân</h1>
+                    <p>Facebook: Trần Việt Quân</p>
+                </div>
+            </div>
+            <div class=" flex bg-slate-200 mx-10 my-10 justify-center items-center w-[500px] h-[400px] rounded-lg">
+                <img src="/img/tvq.png" class="w-52" />
+                <div>
+                    <h1 class="font-bold text-2xl">Trần Việt Quân</h1>
+                    <p>Facebook: Trần Việt Quân</p>
+                </div>
+            </div>
+            <div class=" flex bg-slate-200 mx-10 my-10 justify-center items-center w-[300px] rounded-lg">
+                <img src="/img/tvq.png" class="w-52" />
+                <div>
+                    <h1 class="font-bold text-2xl">Trần Việt Quân</h1>
+                    <p>Facebook: Trần Việt Quân</p>
+                </div>
+            </div>
+            <div class=" flex bg-slate-200 mx-10 my-10 justify-center items-center w-[300px] h-[400px] rounded-lg">
+                <img src="/img/tvq.png" class="w-52" />
+                <div>
+                    <h1 class="font-bold text-2xl">Trần Việt Quân</h1>
+                    <p>Facebook: Trần Việt Quân</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <h1 class="my-5 font-bold">Challenge #25</h1>
+    <p>Create notifications for a few states with a close icon. Make it work with Alpine.js</p>
+    <section>
+        <p class="border-2 bg-slate-200 rounded-md">You have new message from BKE</p>
+        <p class="border-2 bg-slate-200 rounded-md">You have new message form TTTT</p>
+        
+
+    </section>
+
+
+
+
     
     
 </body>
